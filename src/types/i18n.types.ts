@@ -23,20 +23,18 @@ export interface Language {
 /**
  * Available locales in the application
  */
-export type SupportedLocale = 
-  | 'en' 
-  | 'de' 
-  | 'eo' 
-  | 'es' 
-  | 'fr' 
-  | 'it' 
-  | 'ja' 
-  | 'ko' 
-  | 'pl' 
-  | 'pt' 
-  | 'ru' 
-  | 'sv' 
-  | 'zh' 
+export type SupportedLocale =
+  | 'en'
+  | 'de'
+  | 'eo'
+  | 'es'
+  | 'fr'
+  | 'it'
+  | 'ja'
+  | 'ko'
+  | 'pl'
+  | 'pt'
+  | 'ru'
+  | 'sv'
+  | 'zh'
   | 'zh-TW';
-
-

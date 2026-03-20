@@ -22,7 +22,7 @@ const generateParticles = () => {
 export default function Hero() {
   const { formatMessage } = useIntl();
   const particles = useMemo(() => generateParticles(), []);
-  
+
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     element?.scrollIntoView({ behavior: 'smooth' });
@@ -32,8 +32,7 @@ export default function Hero() {
     <section
       id="hero"
       className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-[#667eea] to-[#764ba2] px-4 py-16"
-      style={{ perspective: '1500px' }}
-    >
+      style={{ perspective: '1500px' }}>
       {/* Animated background particles */}
       <div className="absolute inset-0 overflow-hidden opacity-30 pointer-events-none">
         {particles.map((particle, i) => (
@@ -68,8 +67,7 @@ export default function Hero() {
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="mb-8 inline-block"
-          >
+            className="mb-8 inline-block">
             <div className="relative p-1 rounded-full bg-gradient-to-r from-[#34d399] via-[#ec4899] to-[#a855f7]">
               <img
                 src={`https://github.com/${PROFILE_DATA.github.username}.png`}
@@ -84,8 +82,7 @@ export default function Hero() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}
-            className="mb-6"
-          >
+            className="mb-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white/95 mb-4">
               {formatMessage(heroMessages.greeting)}{' '}
               <span className="bg-gradient-to-r from-[#34d399] via-[#ec4899] to-[#a855f7] bg-clip-text text-transparent">
@@ -99,12 +96,9 @@ export default function Hero() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.5 }}
-            className="mb-8"
-          >
+            className="mb-8">
             <Card3D className="inline-block bg-white/10 backdrop-blur-lg rounded-2xl px-8 py-4 border border-white/20">
-              <p className="text-xl md:text-2xl text-white/90">
-                {PROFILE_DATA.tagline}
-              </p>
+              <p className="text-xl md:text-2xl text-white/90">{PROFILE_DATA.tagline}</p>
             </Card3D>
           </motion.div>
 
@@ -113,17 +107,12 @@ export default function Hero() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.5 }}
-            className="flex flex-wrap justify-center gap-4 mb-8"
-          >
+            className="flex flex-wrap justify-center gap-4 mb-8">
             <Card3D className="bg-white/10 backdrop-blur-lg rounded-xl px-6 py-3 border border-white/20">
-              <p className="text-white/80">
-                📍 {PROFILE_DATA.location}
-              </p>
+              <p className="text-white/80">📍 {PROFILE_DATA.location}</p>
             </Card3D>
             <Card3D className="bg-white/10 backdrop-blur-lg rounded-xl px-6 py-3 border border-white/20">
-              <p className="text-white/80">
-                🏢 {PROFILE_DATA.company}
-              </p>
+              <p className="text-white/80">🏢 {PROFILE_DATA.company}</p>
             </Card3D>
           </motion.div>
 
@@ -132,8 +121,7 @@ export default function Hero() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.5 }}
-            className="flex flex-wrap justify-center gap-4 mb-12"
-          >
+            className="flex flex-wrap justify-center gap-4 mb-12">
             <Button variant="primary" onClick={() => scrollToSection('projects')}>
               {formatMessage(heroMessages.viewWork)}
             </Button>
@@ -147,16 +135,14 @@ export default function Hero() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 1, duration: 0.5 }}
-            className="flex justify-center gap-6"
-          >
+            className="flex justify-center gap-6">
             <motion.a
               href={PROFILE_DATA.github.url}
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.25, y: -5 }}
               whileTap={{ scale: 0.9 }}
-              className="text-white/80 hover:text-white transition-all duration-300 ease-in-out"
-            >
+              className="text-white/80 hover:text-white transition-all duration-300 ease-in-out">
               <FaGithub size={32} />
             </motion.a>
             <motion.a
@@ -165,8 +151,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               whileHover={{ scale: 1.25, y: -5 }}
               whileTap={{ scale: 0.9 }}
-              className="text-white/80 hover:text-white transition-all duration-300 ease-in-out"
-            >
+              className="text-white/80 hover:text-white transition-all duration-300 ease-in-out">
               <FaLinkedin size={32} />
             </motion.a>
             <motion.a
@@ -175,8 +160,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               whileHover={{ scale: 1.25, y: -5 }}
               whileTap={{ scale: 0.9 }}
-              className="text-white/80 hover:text-white transition-all duration-300 ease-in-out"
-            >
+              className="text-white/80 hover:text-white transition-all duration-300 ease-in-out">
               <FaStackOverflow size={32} />
             </motion.a>
           </motion.div>
@@ -188,19 +172,15 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 0.5 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20"
-      >
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20">
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 1.5, repeat: Infinity }}
           className="text-white/60 text-4xl cursor-pointer"
-          onClick={() => scrollToSection('about')}
-        >
+          onClick={() => scrollToSection('about')}>
           ↓
         </motion.div>
       </motion.div>
     </section>
   );
 }
-
-

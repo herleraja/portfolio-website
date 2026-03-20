@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Build outputs
+dist
+build
+.vite
+*.tsbuildinfo
+
+# Coverage
+coverage
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode
+.idea
+
+# Generated files
+src/locales/messages_*.json
+
+# Config files that should maintain specific formatting
+netlify.toml

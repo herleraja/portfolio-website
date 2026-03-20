@@ -51,26 +51,23 @@ export default function LanguageSelector({ currentLocale, onLocaleChange }: Lang
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-all duration-300 backdrop-blur-sm border border-white/20 w-full sm:w-auto justify-start"
-        aria-label="Select language"
-      >
+        aria-label="Select language">
         <FaGlobe className="text-lg" />
-        <span className="text-sm font-medium">
-          {currentLanguage.nativeName}
-        </span>
+        <span className="text-sm font-medium">{currentLanguage.nativeName}</span>
       </button>
 
       {isOpen && (
         <div className="fixed sm:absolute left-4 right-4 sm:left-auto sm:right-0 mt-2 sm:w-64 bg-white/95 backdrop-blur-md rounded-lg shadow-xl border border-white/20 overflow-hidden z-[9999]">
           <div className="max-h-[70vh] overflow-y-auto">
-            {languages.map((language) => (
+            {languages.map(language => (
               <button
                 key={language.code}
                 onClick={() => handleLanguageChange(language.code)}
-                className={`w-full px-4 py-3 text-left hover:bg-purple-100 transition-colors duration-200 ${currentLocale === language.code
-                  ? 'bg-purple-200 font-semibold text-purple-900'
-                  : 'text-gray-800'
-                  }`}
-              >
+                className={`w-full px-4 py-3 text-left hover:bg-purple-100 transition-colors duration-200 ${
+                  currentLocale === language.code
+                    ? 'bg-purple-200 font-semibold text-purple-900'
+                    : 'text-gray-800'
+                }`}>
                 <div className="flex justify-between items-center">
                   <span className="font-medium">{language.nativeName}</span>
                   <span className="text-sm text-gray-600">{language.name}</span>
@@ -83,5 +80,3 @@ export default function LanguageSelector({ currentLocale, onLocaleChange }: Lang
     </div>
   );
 }
-
-

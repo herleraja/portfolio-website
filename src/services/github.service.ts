@@ -75,7 +75,7 @@ class GitHubService {
   async getCombinedRepos(user: string = username, orgs: string[] = []): Promise<GitHubRepo[]> {
     try {
       const userRepos = await this.getUserRepos(user);
-      
+
       // Fetch repos from all specified organizations
       const orgReposPromises = orgs.map(org => this.getOrgRepos(org));
       const orgReposArrays = await Promise.all(orgReposPromises);
@@ -87,24 +87,24 @@ class GitHubService {
 
       // Create a map to track repo names from org repos and own repos
       const repoNameMap = new Map<string, GitHubRepo>();
-      
+
       // First, add org repos (highest priority)
       orgRepos.forEach(repo => {
         repoNameMap.set(repo.name.toLowerCase(), repo);
       });
-      
+
       // Then add own repos (if not already present)
       ownRepos.forEach(repo => {
         if (!repoNameMap.has(repo.name.toLowerCase())) {
           repoNameMap.set(repo.name.toLowerCase(), repo);
         }
       });
-      
+
       // Finally, add forked repos (only if name not already present)
       const uniqueForkedRepos = forkedRepos.filter(
         repo => !repoNameMap.has(repo.name.toLowerCase())
       );
-      
+
       // Combine: org repos + own repos + unique forks at the end
       const uniqueRepos = [...repoNameMap.values(), ...uniqueForkedRepos];
 
@@ -117,5 +117,3 @@ class GitHubService {
 }
 
 export const githubService = new GitHubService();
-
-

@@ -32,7 +32,7 @@ export default function Navigation({ locale, onLocaleChange }: LocaleProps) {
   const scrollToSection = (href: string) => {
     // Close mobile menu first
     setIsMobileMenuOpen(false);
-    
+
     // Use setTimeout to ensure menu closes before scrolling
     setTimeout(() => {
       const element = document.querySelector(href);
@@ -48,11 +48,8 @@ export default function Navigation({ locale, onLocaleChange }: LocaleProps) {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-[#667eea]/90 backdrop-blur-lg border-b border-white/10' 
-          : 'bg-transparent'
-      }`}
-    >
+        isScrolled ? 'bg-[#667eea]/90 backdrop-blur-lg border-b border-white/10' : 'bg-transparent'
+      }`}>
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
@@ -60,21 +57,22 @@ export default function Navigation({ locale, onLocaleChange }: LocaleProps) {
             onClick={() => scrollToSection('#hero')}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="text-2xl font-bold bg-gradient-to-r from-[#34d399] via-[#ec4899] to-[#a855f7] bg-clip-text text-transparent border-none bg-none cursor-pointer p-0"
-          >
-            {PROFILE_DATA.name.split(' ').map(word => word[0]).join('')}
+            className="text-2xl font-bold bg-gradient-to-r from-[#34d399] via-[#ec4899] to-[#a855f7] bg-clip-text text-transparent border-none bg-none cursor-pointer p-0">
+            {PROFILE_DATA.name
+              .split(' ')
+              .map(word => word[0])
+              .join('')}
           </motion.button>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-8 items-center">
-            {navItems.map((item) => (
+            {navItems.map(item => (
               <motion.button
                 key={item.messageKey.id}
                 onClick={() => scrollToSection(item.href)}
                 whileHover={{ scale: 1.25, y: -2 }}
                 whileTap={{ scale: 0.95 }}
-                className="text-white/80 font-medium transition-all duration-300 ease-in-out hover:text-white border-none bg-transparent cursor-pointer text-base px-2 py-1"
-              >
+                className="text-white/80 font-medium transition-all duration-300 ease-in-out hover:text-white border-none bg-transparent cursor-pointer text-base px-2 py-1">
                 {formatMessage(item.messageKey)}
               </motion.button>
             ))}
@@ -86,8 +84,7 @@ export default function Navigation({ locale, onLocaleChange }: LocaleProps) {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden text-white/90 text-2xl border-none bg-transparent cursor-pointer p-2 transition-all duration-300 ease-in-out hover:text-white"
-          >
+            className="md:hidden text-white/90 text-2xl border-none bg-transparent cursor-pointer p-2 transition-all duration-300 ease-in-out hover:text-white">
             {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
           </motion.button>
         </div>
@@ -100,8 +97,7 @@ export default function Navigation({ locale, onLocaleChange }: LocaleProps) {
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3 }}
-              className="md:hidden mt-4"
-            >
+              className="md:hidden mt-4">
               <div className="flex flex-col gap-4 pb-4">
                 {navItems.map((item, index) => (
                   <motion.button
@@ -109,13 +105,12 @@ export default function Navigation({ locale, onLocaleChange }: LocaleProps) {
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}
-                    onClick={(e) => {
+                    onClick={e => {
                       e.preventDefault();
                       e.stopPropagation();
                       scrollToSection(item.href);
                     }}
-                    className="text-white/90 font-medium px-3 py-3 text-left bg-white/10 rounded-lg border border-white/20 cursor-pointer text-base transition-all duration-300 ease-in-out hover:bg-white/20 hover:border-white/30 hover:scale-105"
-                  >
+                    className="text-white/90 font-medium px-3 py-3 text-left bg-white/10 rounded-lg border border-white/20 cursor-pointer text-base transition-all duration-300 ease-in-out hover:bg-white/20 hover:border-white/30 hover:scale-105">
                     {formatMessage(item.messageKey)}
                   </motion.button>
                 ))}
@@ -130,5 +125,3 @@ export default function Navigation({ locale, onLocaleChange }: LocaleProps) {
     </motion.nav>
   );
 }
-
-

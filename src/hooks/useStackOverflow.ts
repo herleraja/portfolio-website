@@ -32,5 +32,3 @@ export const useStackOverflow = (userId?: string) => {
 
   return { user, badges, loading, error };
 };
-
-

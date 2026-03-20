@@ -34,7 +34,9 @@ export default function About() {
     {
       icon: <FaRocket />,
       messageKey: aboutMessages.statsSoBadges,
-      value: soUser ? soUser.badge_counts.gold + soUser.badge_counts.silver + soUser.badge_counts.bronze : '71',
+      value: soUser
+        ? soUser.badge_counts.gold + soUser.badge_counts.silver + soUser.badge_counts.bronze
+        : '71',
       color: 'text-[#fbbf24]',
     },
   ];
@@ -63,18 +65,16 @@ export default function About() {
   ];
 
   return (
-    <section 
-      id="about" 
+    <section
+      id="about"
       className="py-20 px-4 bg-gradient-to-br from-[#667eea] to-[#764ba2]"
-      style={{ perspective: '1500px' }}
-    >
+      style={{ perspective: '1500px' }}>
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        >
+          transition={{ duration: 0.5 }}>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-white/95">
             {formatMessage(aboutMessages.title)}{' '}
             <span className="bg-gradient-to-r from-[#34d399] via-[#ec4899] to-[#a855f7] bg-clip-text text-transparent">
@@ -127,27 +127,20 @@ export default function About() {
             {stats.map((stat, index) => (
               <Card3D
                 key={stat.messageKey.id}
-                className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 text-center transition-all duration-300 ease-in-out hover:bg-white/15"
-              >
+                className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 text-center transition-all duration-300 ease-in-out hover:bg-white/15">
                 <motion.div
                   initial={{ opacity: 0, scale: 0.9 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
-                  transition={{ delay: index * 0.1, duration: 0.5 }}
-                >
+                  transition={{ delay: index * 0.1, duration: 0.5 }}>
                   <motion.div
                     className={`text-5xl mb-2 ${stat.color}`}
                     whileHover={{ scale: 1.2, rotate: 5 }}
-                    transition={{ duration: 0.3 }}
-                  >
+                    transition={{ duration: 0.3 }}>
                     {stat.icon}
                   </motion.div>
-                  <div className="text-3xl font-bold text-white/95 mb-1">
-                    {stat.value}
-                  </div>
-                  <div className="text-sm text-white/70">
-                    {formatMessage(stat.messageKey)}
-                  </div>
+                  <div className="text-3xl font-bold text-white/95 mb-1">{stat.value}</div>
+                  <div className="text-sm text-white/70">{formatMessage(stat.messageKey)}</div>
                 </motion.div>
               </Card3D>
             ))}
@@ -158,17 +151,13 @@ export default function About() {
             {highlights.map((highlight, index) => (
               <Card3D
                 key={highlight.titleKey.id}
-                className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 transition-all duration-300 ease-in-out hover:bg-white/15"
-              >
+                className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 transition-all duration-300 ease-in-out hover:bg-white/15">
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ delay: index * 0.1, duration: 0.5 }}
-                >
-                  <div className="text-5xl mb-3">
-                    {highlight.icon}
-                  </div>
+                  transition={{ delay: index * 0.1, duration: 0.5 }}>
+                  <div className="text-5xl mb-3">{highlight.icon}</div>
                   <h3 className="text-xl font-semibold text-white/95 mb-2">
                     {formatMessage(highlight.titleKey)}
                   </h3>
@@ -184,5 +173,3 @@ export default function About() {
     </section>
   );
 }
-
-

@@ -13,16 +13,16 @@ const RainMusic = () => {
     audioRef.current.loop = true;
     audioRef.current.volume = volume;
     audioRef.current.preload = 'auto';
-    
+
     // Try primary source - rain sound
     audioRef.current.src = 'https://assets.mixkit.co/active_storage/sfx/2390/2390-preview.mp3';
-    
+
     // Add event listeners
     audioRef.current.addEventListener('canplaythrough', () => {
       setIsLoading(false);
       setError(null);
     });
-    
+
     audioRef.current.addEventListener('error', () => {
       console.error('Error loading audio');
       setError('Failed to load audio');
@@ -75,18 +75,22 @@ const RainMusic = () => {
       } else {
         setIsLoading(true);
         setError(null);
-        
+
         // Ensure audio is loaded
         if (audioRef.current.readyState < 2) {
           await new Promise((resolve, reject) => {
             const timeout = setTimeout(() => reject(new Error('Timeout')), 5000);
-            audioRef.current!.addEventListener('canplay', () => {
-              clearTimeout(timeout);
-              resolve(true);
-            }, { once: true });
+            audioRef.current!.addEventListener(
+              'canplay',
+              () => {
+                clearTimeout(timeout);
+                resolve(true);
+              },
+              { once: true }
+            );
           });
         }
-        
+
         await audioRef.current.play();
         setIsPlaying(true);
         setIsLoading(false);
@@ -116,8 +120,7 @@ const RainMusic = () => {
               className="w-4 h-4 text-white"
               fill="none"
               stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
+              viewBox="0 0 24 24">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -131,10 +134,10 @@ const RainMusic = () => {
               max="1"
               step="0.1"
               value={volume}
-              onChange={(e) => setVolume(parseFloat(e.target.value))}
+              onChange={e => setVolume(parseFloat(e.target.value))}
               className="w-20 h-1 bg-white/30 rounded-lg appearance-none cursor-pointer slider"
               style={{
-                background: `linear-gradient(to right, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) ${volume * 100}%, rgba(255,255,255,0.3) ${volume * 100}%, rgba(255,255,255,0.3) 100%)`
+                background: `linear-gradient(to right, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) ${volume * 100}%, rgba(255,255,255,0.3) ${volume * 100}%, rgba(255,255,255,0.3) 100%)`,
               }}
             />
             <span className="text-white text-xs font-medium min-w-[2rem] text-right">
@@ -150,14 +153,9 @@ const RainMusic = () => {
         disabled={isLoading}
         className="bg-white/10 backdrop-blur-md hover:bg-white/20 transition-all duration-300 rounded-full p-4 shadow-lg border border-white/20 group disabled:opacity-50 disabled:cursor-not-allowed"
         aria-label={isPlaying ? 'Pause rain music' : 'Play rain music'}
-        title={isPlaying ? 'Pause rain music' : 'Play rain music'}
-      >
+        title={isPlaying ? 'Pause rain music' : 'Play rain music'}>
         {isLoading ? (
-          <svg
-            className="w-6 h-6 text-white animate-spin"
-            fill="none"
-            viewBox="0 0 24 24"
-          >
+          <svg className="w-6 h-6 text-white animate-spin" fill="none" viewBox="0 0 24 24">
             <circle
               className="opacity-25"
               cx="12"
@@ -173,19 +171,11 @@ const RainMusic = () => {
             />
           </svg>
         ) : isPlaying ? (
-          <svg
-            className="w-6 h-6 text-white"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-          >
+          <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
             <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
           </svg>
         ) : (
-          <svg
-            className="w-6 h-6 text-white"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-          >
+          <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
             <path d="M8 5v14l11-7z" />
           </svg>
         )}
@@ -195,6 +185,3 @@ const RainMusic = () => {
 };
 
 export default RainMusic;
-
-
-

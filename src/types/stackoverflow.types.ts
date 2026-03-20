@@ -23,5 +23,3 @@ export interface StackOverflowTag {
   name: string;
   count: number;
 }
-
-

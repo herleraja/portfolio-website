@@ -1,5 +1,9 @@
 import axios from 'axios';
-import type { StackOverflowUser, StackOverflowBadge, StackOverflowTag } from '../types/stackoverflow.types';
+import type {
+  StackOverflowUser,
+  StackOverflowBadge,
+  StackOverflowTag,
+} from '../types/stackoverflow.types';
 import { API_CONFIG } from '../utils/constants';
 
 const { baseUrl, userId } = API_CONFIG.stackoverflow;
@@ -57,5 +61,3 @@ class StackOverflowService {
 }
 
 export const stackoverflowService = new StackOverflowService();
-
-

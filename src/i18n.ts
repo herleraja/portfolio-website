@@ -60,7 +60,8 @@ export const aboutMessages = defineMessages({
   },
   descriptionPart2: {
     id: 'about.description.part2',
-    defaultMessage: ', where I specialize in building scalable IoT solutions and data analytics platforms.',
+    defaultMessage:
+      ', where I specialize in building scalable IoT solutions and data analytics platforms.',
   },
   descriptionPart3: {
     id: 'about.description.part3',
@@ -68,7 +69,8 @@ export const aboutMessages = defineMessages({
   },
   descriptionPart4: {
     id: 'about.description.part4',
-    defaultMessage: ', I love creating innovative solutions that make a real impact. My work focuses on IoT platforms, cloud technologies, and building robust enterprise applications.',
+    defaultMessage:
+      ', I love creating innovative solutions that make a real impact. My work focuses on IoT platforms, cloud technologies, and building robust enterprise applications.',
   },
   descriptionPart5: {
     id: 'about.description.part5',
@@ -76,7 +78,8 @@ export const aboutMessages = defineMessages({
   },
   descriptionPart6: {
     id: 'about.description.part6',
-    defaultMessage: ", I'm always excited to collaborate on challenging projects and contribute to open-source communities.",
+    defaultMessage:
+      ", I'm always excited to collaborate on challenging projects and contribute to open-source communities.",
   },
   statsPublicRepos: {
     id: 'about.stats.publicRepos',
@@ -140,7 +143,8 @@ export const skillsMessages = defineMessages({
   },
   subtitle: {
     id: 'skills.subtitle',
-    defaultMessage: 'A comprehensive overview of my technical expertise and the tools I use to build amazing products',
+    defaultMessage:
+      'A comprehensive overview of my technical expertise and the tools I use to build amazing products',
   },
   categoryPrimarySkills: {
     id: 'skills.category.primarySkills',
@@ -224,7 +228,8 @@ export const contactMessages = defineMessages({
   },
   subtitle: {
     id: 'contact.subtitle',
-    defaultMessage: 'Feel free to reach out for collaborations, opportunities, or just a friendly chat!',
+    defaultMessage:
+      'Feel free to reach out for collaborations, opportunities, or just a friendly chat!',
   },
   methodLinkedinTitle: {
     id: 'contact.method.linkedin.title',
@@ -265,5 +270,3 @@ export const commonMessages = defineMessages({
 });
 
 export const defaultLocale = 'en';
-
-

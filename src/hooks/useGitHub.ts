@@ -13,12 +13,13 @@ export const useGitHub = (username?: string, contributionOrgs?: string[]) => {
       try {
         setLoading(true);
         const userData = await githubService.getUserProfile(username);
-        
+
         // Fetch combined repos (user repos + org contributions)
-        const reposData = contributionOrgs && contributionOrgs.length > 0
-          ? await githubService.getCombinedRepos(username, contributionOrgs)
-          : await githubService.getUserRepos(username);
-        
+        const reposData =
+          contributionOrgs && contributionOrgs.length > 0
+            ? await githubService.getCombinedRepos(username, contributionOrgs)
+            : await githubService.getUserRepos(username);
+
         setUser(userData);
         setRepos(reposData);
         setError(null);
@@ -35,5 +36,3 @@ export const useGitHub = (username?: string, contributionOrgs?: string[]) => {
 
   return { user, repos, loading, error };
 };
-
-

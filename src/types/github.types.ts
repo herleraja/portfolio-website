@@ -39,5 +39,3 @@ export interface GitHubRepo {
 export interface GitHubLanguageStats {
   [language: string]: number;
 }
-
-

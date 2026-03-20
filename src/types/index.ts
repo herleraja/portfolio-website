@@ -6,5 +6,3 @@ export type { StackOverflowUser, StackOverflowBadge } from './stackoverflow.type
 
 // i18n types
 export type { LocaleProps, Language, SupportedLocale } from './i18n.types';
-
-

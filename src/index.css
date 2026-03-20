@@ -8,13 +8,19 @@
   * {
     border-color: rgb(51 65 85);
   }
-  
+
   body {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     background-attachment: fixed;
     background-size: cover;
     color: rgb(224 231 255);
-    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family:
+      'Poppins',
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      Roboto,
+      sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
@@ -51,11 +57,11 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
+
   .gradient-bg {
     background: linear-gradient(to right, #a855f7, #34d399);
   }
-  
+
   .gradient-bg-hover:hover {
     background: linear-gradient(to right, #ec4899, #34d399);
   }
@@ -100,18 +106,31 @@
 
 /* 3D Effects */
 @keyframes float-3d {
-  0%, 100% { transform: translateY(0) rotateX(0deg) rotateY(0deg); }
-  50% { transform: translateY(-10px) rotateX(5deg) rotateY(5deg); }
+  0%,
+  100% {
+    transform: translateY(0) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotateX(5deg) rotateY(5deg);
+  }
 }
 
 @keyframes rotate-3d {
-  from { transform: rotateY(0deg); }
-  to { transform: rotateY(360deg); }
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 
 @keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Rain animation effect */
@@ -133,7 +152,8 @@
 }
 
 @keyframes rain-blur-shift {
-  0%, 100% {
+  0%,
+  100% {
     filter: blur(40px);
     opacity: 0.3;
   }
@@ -159,7 +179,13 @@
   position: absolute;
   width: 3px;
   height: 50px;
-  background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.4), transparent);
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
   animation: rain-fall linear infinite;
 }
 
@@ -213,13 +239,13 @@
 }
 
 /* Custom slider styles for rain music volume control */
-input[type="range"].slider {
+input[type='range'].slider {
   -webkit-appearance: none;
   appearance: none;
   outline: none;
 }
 
-input[type="range"].slider::-webkit-slider-thumb {
+input[type='range'].slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 16px;
@@ -231,11 +257,11 @@ input[type="range"].slider::-webkit-slider-thumb {
   transition: transform 0.2s ease;
 }
 
-input[type="range"].slider::-webkit-slider-thumb:hover {
+input[type='range'].slider::-webkit-slider-thumb:hover {
   transform: scale(1.2);
 }
 
-input[type="range"].slider::-moz-range-thumb {
+input[type='range'].slider::-moz-range-thumb {
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -246,7 +272,7 @@ input[type="range"].slider::-moz-range-thumb {
   transition: transform 0.2s ease;
 }
 
-input[type="range"].slider::-moz-range-thumb:hover {
+input[type='range'].slider::-moz-range-thumb:hover {
   transform: scale(1.2);
 }
 

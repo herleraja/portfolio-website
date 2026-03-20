@@ -63,18 +63,14 @@ export default function Card3D({ children, className = '', style = {} }: Card3DP
           ? '0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 30px rgba(168, 85, 247, 0.4)'
           : '0 10px 15px -3px rgba(0, 0, 0, 0.3)',
       }}
-      transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-    >
+      transition={{ type: 'spring', stiffness: 300, damping: 30 }}>
       <div
         style={{
           transform: 'translateZ(20px)',
           pointerEvents: 'auto',
-        }}
-      >
+        }}>
         {children}
       </div>
     </motion.div>
   );
 }
-
-

@@ -1,17 +1,17 @@
-import messagesEn from '../locales/messages_en.json'
-import messagesDe from '../locales/messages_de.json'
-import messagesEo from '../locales/messages_eo.json'
-import messagesEs from '../locales/messages_es.json'
-import messagesFr from '../locales/messages_fr.json'
-import messagesIt from '../locales/messages_it.json'
-import messagesJa from '../locales/messages_ja.json'
-import messagesKo from '../locales/messages_ko.json'
-import messagesPl from '../locales/messages_pl.json'
-import messagesPt from '../locales/messages_pt.json'
-import messagesRu from '../locales/messages_ru.json'
-import messagesSv from '../locales/messages_sv.json'
-import messagesZh from '../locales/messages_zh.json'
-import messagesZhTW from '../locales/messages_zh-TW.json'
+import messagesEn from '../locales/messages_en.json';
+import messagesDe from '../locales/messages_de.json';
+import messagesEo from '../locales/messages_eo.json';
+import messagesEs from '../locales/messages_es.json';
+import messagesFr from '../locales/messages_fr.json';
+import messagesIt from '../locales/messages_it.json';
+import messagesJa from '../locales/messages_ja.json';
+import messagesKo from '../locales/messages_ko.json';
+import messagesPl from '../locales/messages_pl.json';
+import messagesPt from '../locales/messages_pt.json';
+import messagesRu from '../locales/messages_ru.json';
+import messagesSv from '../locales/messages_sv.json';
+import messagesZh from '../locales/messages_zh.json';
+import messagesZhTW from '../locales/messages_zh-TW.json';
 import { defaultLocale } from '../i18n';
 
 // Load messages for all supported locales
@@ -55,5 +55,4 @@ export const getInitialLocale = (): string => {
   }
 
   return defaultLocale;
-}
-
+};

@@ -45,18 +45,16 @@ export default function Contact() {
     },
   ];
   return (
-    <section 
-      id="contact" 
+    <section
+      id="contact"
       className="py-20 px-4 bg-gradient-to-br from-[#667eea] to-[#764ba2]"
-      style={{ perspective: '1500px' }}
-    >
+      style={{ perspective: '1500px' }}>
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        >
+          transition={{ duration: 0.5 }}>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 text-white/95">
             {formatMessage(contactMessages.title)}{' '}
             <span className="bg-gradient-to-r from-[#34d399] via-[#ec4899] to-[#a855f7] bg-clip-text text-transparent">
@@ -75,20 +73,17 @@ export default function Contact() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1, duration: 0.5 }}
-              >
+                transition={{ delay: index * 0.1, duration: 0.5 }}>
                 <Card3D className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20 cursor-pointer transition-all duration-300 ease-in-out hover:bg-white/15">
                   <a
                     href={method.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex flex-col items-center gap-4 no-underline transition-all duration-300 ease-in-out"
-                  >
+                    className="flex flex-col items-center gap-4 no-underline transition-all duration-300 ease-in-out">
                     <motion.div
                       className={`text-5xl ${method.color}`}
                       whileHover={{ scale: 1.25, rotate: 5 }}
-                      transition={{ duration: 0.3 }}
-                    >
+                      transition={{ duration: 0.3 }}>
                       {method.icon}
                     </motion.div>
                     <h3 className="text-xl font-semibold text-white/95">
@@ -108,25 +103,17 @@ export default function Contact() {
             {info.map((item, index) => (
               <Card3D
                 key={item.labelKey.id}
-                className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 flex items-center gap-4 transition-all duration-300 ease-in-out hover:bg-white/15"
-              >
+                className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 flex items-center gap-4 transition-all duration-300 ease-in-out hover:bg-white/15">
                 <motion.div
                   initial={{ opacity: 0, scale: 0.9 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1, duration: 0.5 }}
-                  className="flex items-center gap-4 w-full"
-                >
-                  <div className="text-4xl text-[#34d399]">
-                    {item.icon}
-                  </div>
+                  className="flex items-center gap-4 w-full">
+                  <div className="text-4xl text-[#34d399]">{item.icon}</div>
                   <div>
-                    <p className="text-sm text-white/60">
-                      {formatMessage(item.labelKey)}
-                    </p>
-                    <p className="text-lg font-semibold text-white/95">
-                      {item.value}
-                    </p>
+                    <p className="text-sm text-white/60">{formatMessage(item.labelKey)}</p>
+                    <p className="text-lg font-semibold text-white/95">{item.value}</p>
                   </div>
                 </motion.div>
               </Card3D>
@@ -139,10 +126,10 @@ export default function Contact() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3, duration: 0.5 }}
-            className="mt-12 text-center text-white/60 text-sm"
-          >
+            className="mt-12 text-center text-white/60 text-sm">
             <p>
-              © {new Date().getFullYear()} {PROFILE_DATA.name}. {formatMessage(contactMessages.footer)}
+              © {new Date().getFullYear()} {PROFILE_DATA.name}.{' '}
+              {formatMessage(contactMessages.footer)}
             </p>
           </motion.div>
         </motion.div>
@@ -150,5 +137,3 @@ export default function Contact() {
     </section>
   );
 }
-
-
