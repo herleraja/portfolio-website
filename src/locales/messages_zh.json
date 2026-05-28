@@ -57,5 +57,13 @@
   "contact.info.location": "位置",
   "contact.info.company": "公司",
   "contact.footer": "使用 React、TypeScript 和 Tailwind CSS 构建。",
-  "common.and": "和"
+  "common.and": "和",
+  "nav.certificates": "证书",
+  "certificates.title": "证书与",
+  "certificates.titleHighlight": "成就",
+  "certificates.subtitle": "来自LinkedIn和其他平台的专业证书和成就",
+  "certificates.issued": "颁发日期",
+  "certificates.skills": "技能",
+  "certificates.viewCertificate": "查看证书",
+  "certificates.viewAllOnLinkedIn": "在LinkedIn上查看所有证书"
 }

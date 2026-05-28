@@ -3,6 +3,7 @@
   "nav.about": "소개",
   "nav.skills": "기술",
   "nav.projects": "프로젝트",
+  "nav.certificates": "자격증",
   "nav.contact": "연락처",
   "hero.greeting": "안녕하세요, 저는",
   "hero.viewWork": "작업 보기",
@@ -57,5 +58,12 @@
   "contact.info.location": "위치",
   "contact.info.company": "회사",
   "contact.footer": "React, TypeScript 및 Tailwind CSS로 구축되었습니다.",
+  "certificates.title": "자격증 및",
+  "certificates.titleHighlight": "성과",
+  "certificates.subtitle": "LinkedIn 및 기타 플랫폼의 전문 자격증 및 성과",
+  "certificates.issued": "발급일",
+  "certificates.skills": "기술",
+  "certificates.viewCertificate": "자격증 보기",
+  "certificates.viewAllOnLinkedIn": "LinkedIn에서 모든 자격증 보기",
   "common.and": "및"
 }

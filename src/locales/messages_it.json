@@ -3,6 +3,7 @@
   "nav.about": "Chi Sono",
   "nav.skills": "Competenze",
   "nav.projects": "Progetti",
+  "nav.certificates": "Certificati",
   "nav.contact": "Contatti",
   "hero.greeting": "Ciao, sono",
   "hero.viewWork": "Vedi il Mio Lavoro",
@@ -57,5 +58,12 @@
   "contact.info.location": "Posizione",
   "contact.info.company": "Azienda",
   "contact.footer": "Costruito con React, TypeScript e Tailwind CSS.",
+  "certificates.title": "Certificati e",
+  "certificates.titleHighlight": "Risultati",
+  "certificates.subtitle": "Certificazioni professionali e risultati da LinkedIn e altre piattaforme",
+  "certificates.issued": "Rilasciato",
+  "certificates.skills": "Competenze",
+  "certificates.viewCertificate": "Visualizza Certificato",
+  "certificates.viewAllOnLinkedIn": "Visualizza Tutti i Certificati su LinkedIn",
   "common.and": "e"
 }

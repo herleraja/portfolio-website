@@ -57,5 +57,13 @@
   "contact.info.location": "Loko",
   "contact.info.company": "Kompanio",
   "contact.footer": "Konstruita kun React, TypeScript & Tailwind CSS.",
-  "common.and": "kaj"
+  "common.and": "kaj",
+  "nav.certificates": "Atestoj",
+  "certificates.title": "Atestoj kaj",
+  "certificates.titleHighlight": "atingoj",
+  "certificates.subtitle": "Profesiaj atestoj kaj atingoj de LinkedIn kaj aliaj platformoj",
+  "certificates.issued": "Eldonita",
+  "certificates.skills": "Kapabloj",
+  "certificates.viewCertificate": "Vidi ateston",
+  "certificates.viewAllOnLinkedIn": "Vidi ĉiujn atestojn en LinkedIn"
 }

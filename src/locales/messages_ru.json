@@ -57,5 +57,13 @@
   "contact.info.location": "Местоположение",
   "contact.info.company": "Компания",
   "contact.footer": "Создано с помощью React, TypeScript и Tailwind CSS.",
-  "common.and": "и"
+  "common.and": "и",
+  "nav.certificates": "Сертификаты",
+  "certificates.title": "Сертификаты и",
+  "certificates.titleHighlight": "достижения",
+  "certificates.subtitle": "Профессиональные сертификаты и достижения с LinkedIn и других платформ",
+  "certificates.issued": "Выдан",
+  "certificates.skills": "Навыки",
+  "certificates.viewCertificate": "Посмотреть сертификат",
+  "certificates.viewAllOnLinkedIn": "Посмотреть все сертификаты на LinkedIn"
 }

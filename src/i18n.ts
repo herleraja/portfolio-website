@@ -18,6 +18,10 @@ export const navigationMessages = defineMessages({
     id: 'nav.projects',
     defaultMessage: 'Projects',
   },
+  certificates: {
+    id: 'nav.certificates',
+    defaultMessage: 'Certificates',
+  },
   contact: {
     id: 'nav.contact',
     defaultMessage: 'Contact',
@@ -258,6 +262,39 @@ export const contactMessages = defineMessages({
   footer: {
     id: 'contact.footer',
     defaultMessage: 'Built with React, TypeScript & Tailwind CSS.',
+  },
+});
+
+// Certificates section messages
+export const certificatesMessages = defineMessages({
+  title: {
+    id: 'certificates.title',
+    defaultMessage: 'Certificates &',
+  },
+  titleHighlight: {
+    id: 'certificates.titleHighlight',
+    defaultMessage: 'Achievements',
+  },
+  subtitle: {
+    id: 'certificates.subtitle',
+    defaultMessage:
+      'Professional certifications and achievements from LinkedIn and other platforms',
+  },
+  issued: {
+    id: 'certificates.issued',
+    defaultMessage: 'Issued',
+  },
+  skills: {
+    id: 'certificates.skills',
+    defaultMessage: 'Skills',
+  },
+  viewCertificate: {
+    id: 'certificates.viewCertificate',
+    defaultMessage: 'View Certificate',
+  },
+  viewAllOnLinkedIn: {
+    id: 'certificates.viewAllOnLinkedIn',
+    defaultMessage: 'View All Certificates on LinkedIn',
   },
 });
 

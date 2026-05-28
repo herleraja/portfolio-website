@@ -1,0 +1,212 @@
+[
+  {
+    "id": "webpack-react-oreilly-2023",
+    "name": "Webpack for React Apps",
+    "issuer": "O'Reilly",
+    "issueDate": "December 2023",
+    "credentialId": "23ed112b-53b8-41b7-9497-0a5124625e41",
+    "url": "https://www.credly.com/badges/23ed112b-53b8-41b7-9497-0a5124625e41/public_url",
+    "skills": ["Webpack", "React", "JavaScript", "Build Tools"],
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQF5MuZJw_rPSQ/company-logo_100_100/B4EZfGrGySGwAI-/0/1751384878542/oreilly_logo?e=1781740800&v=beta&t=ZsAfA97DnxcAZT4v_sLxeqfn54_5cFEfvXNUqMzBpSg"
+  },
+  {
+    "id": "electron-udemy-2023",
+    "name": "Electron From Scratch: Build Desktop Apps With JavaScript",
+    "issuer": "Udemy",
+    "issueDate": "November 2023",
+    "credentialId": "UC-b1515a78-ceb1-495f-b175-cba24f3b8a1f",
+    "url": "https://ude.my/UC-b1515a78-ceb1-495f-b175-cba24f3b8a1f",
+    "skills": ["Electron", "JavaScript", "Desktop Apps"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1781740800&v=beta&t=y61MTd1VPgW_KAWQWI27hCYDa8r5JSE3DIALzOxD2M8"
+  },
+  {
+    "id": "ansible-advanced-udemy-2023",
+    "name": "Ansible Advanced - Hands-On - DevOps",
+    "issuer": "Udemy",
+    "issueDate": "November 2023",
+    "credentialId": "UC-3d1687f3-6539-4631-8bae-44d06a56e789",
+    "url": "https://ude.my/UC-3d1687f3-6539-4631-8bae-44d06a56e789",
+    "skills": ["Ansible", "DevOps", "Automation"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1781740800&v=beta&t=y61MTd1VPgW_KAWQWI27hCYDa8r5JSE3DIALzOxD2M8"
+  },
+  {
+    "id": "ansible-beginner-udemy-2023",
+    "name": "Ansible for the Absolute Beginner - Hands-On - DevOps",
+    "issuer": "Udemy",
+    "issueDate": "November 2023",
+    "credentialId": "UC-f4ae36ca-c87e-4dd2-9bbb-491c9e1a84c3",
+    "url": "https://ude.my/UC-f4ae36ca-c87e-4dd2-9bbb-491c9e1a84c3",
+    "skills": ["Ansible", "DevOps", "Automation"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1781740800&v=beta&t=y61MTd1VPgW_KAWQWI27hCYDa8r5JSE3DIALzOxD2M8"
+  },
+  {
+    "id": "nextjs-udemy-2023",
+    "name": "Next.js Dev to Deployment",
+    "issuer": "Udemy",
+    "issueDate": "April 2023",
+    "credentialId": "UC-e2190e50-0bd1-47ee-894f-6aa27a398bcd",
+    "url": "https://ude.my/UC-e2190e50-0bd1-47ee-894f-6aa27a398bcd",
+    "skills": ["Next.js", "React", "JavaScript"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1781740800&v=beta&t=y61MTd1VPgW_KAWQWI27hCYDa8r5JSE3DIALzOxD2M8"
+  },
+  {
+    "id": "node-react-fullstack-udemy-2023",
+    "name": "Node with React: Fullstack Web Development",
+    "issuer": "Udemy",
+    "issueDate": "March 2023",
+    "credentialId": "UC-1436e5ca-1d41-4f7d-88fb-5ffdb5c0b852",
+    "url": "https://ude.my/UC-1436e5ca-1d41-4f7d-88fb-5ffdb5c0b852",
+    "skills": ["React.js", "Node.js", "Fullstack Development"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1781740800&v=beta&t=y61MTd1VPgW_KAWQWI27hCYDa8r5JSE3DIALzOxD2M8"
+  },
+  {
+    "id": "typescript-professionals-udemy-2023",
+    "name": "TypeScript for Professionals - 2023 Edition",
+    "issuer": "Udemy",
+    "issueDate": "February 2023",
+    "credentialId": "UC-e7c1c75e-9c42-4f63-a4ac-1fe5f4f74c7c",
+    "url": "https://ude.my/UC-e7c1c75e-9c42-4f63-a4ac-1fe5f4f74c7c",
+    "skills": ["TypeScript", "JavaScript", "Type Safety"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1781740800&v=beta&t=y61MTd1VPgW_KAWQWI27hCYDa8r5JSE3DIALzOxD2M8"
+  },
+  {
+    "id": "sass-scss-udemy",
+    "name": "The Complete Sass & SCSS Course: From Beginner to Advanced",
+    "issuer": "Udemy",
+    "issueDate": "August 2022",
+    "credentialId": "UC-1beeb258-a430-45a7-9db3-f54c1284bf73",
+    "url": "https://ude.my/UC-1beeb258-a430-45a7-9db3-f54c1284bf73",
+    "skills": ["Sass", "SCSS", "CSS", "Web Development"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1781740800&v=beta&t=y61MTd1VPgW_KAWQWI27hCYDa8r5JSE3DIALzOxD2M8"
+  },
+  {
+    "id": "nodejs-understand-udemy-2022",
+    "name": "Learn and Understand NodeJS",
+    "issuer": "Udemy",
+    "issueDate": "August 2022",
+    "credentialId": "UC-94c9b014-ea1b-4761-86fd-ae6daf2646d9",
+    "url": "https://ude.my/UC-94c9b014-ea1b-4761-86fd-ae6daf2646d9",
+    "skills": ["Node.js", "JavaScript", "Backend Development"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1781740800&v=beta&t=y61MTd1VPgW_KAWQWI27hCYDa8r5JSE3DIALzOxD2M8"
+  },
+  {
+    "id": "react-front-to-back-udemy",
+    "name": "React Front To Back 2022",
+    "issuer": "Udemy",
+    "issueDate": "June 2022",
+    "credentialId": "UC-b409c460-8e29-4209-b795-f277af635f01",
+    "url": "https://ude.my/UC-b409c460-8e29-4209-b795-f277af635f01",
+    "skills": ["React", "JavaScript", "Frontend Development"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1781740800&v=beta&t=y61MTd1VPgW_KAWQWI27hCYDa8r5JSE3DIALzOxD2M8"
+  },
+  {
+    "id": "git-github-bootcamp-udemy-2022",
+    "name": "The Git & Github Bootcamp",
+    "issuer": "Udemy",
+    "issueDate": "February 2022",
+    "credentialId": "UC-82f737bc-d3e6-46fc-b298-dfcd2c39706a",
+    "url": "https://ude.my/UC-82f737bc-d3e6-46fc-b298-dfcd2c39706a",
+    "skills": ["Git", "GitHub", "Version Control"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1781740800&v=beta&t=y61MTd1VPgW_KAWQWI27hCYDa8r5JSE3DIALzOxD2M8"
+  },
+  {
+    "id": "css-bootcamp-udemy-2021",
+    "name": "CSS Bootcamp - Master CSS (CSS Grid / CSS Flexbox)",
+    "issuer": "Udemy",
+    "issueDate": "May 2021",
+    "credentialId": "UC-cc5c8968-7bf6-4ea2-9828-0dfc56d5ce09",
+    "url": "https://ude.my/UC-cc5c8968-7bf6-4ea2-9828-0dfc56d5ce09",
+    "skills": ["CSS", "CSS Grid", "Flexbox", "Web Development"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1781740800&v=beta&t=y61MTd1VPgW_KAWQWI27hCYDa8r5JSE3DIALzOxD2M8"
+  },
+  {
+    "id": "containers-kubernetes-ibm",
+    "name": "Containers & Kubernetes Essentials",
+    "issuer": "IBM",
+    "issueDate": "September 2020",
+    "credentialId": "N/A",
+    "url": "https://www.youracclaim.com/badges/f99ec733-011f-4e95-83c6-ceaffe8f2851?source=linked_in_profile",
+    "skills": ["Containers", "Kubernetes", "Cloud"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1781740800&v=beta&t=ILA4ioa_GfEXWFLxT1w97YUuqDDWxcD6NqlSTVZlbBg"
+  },
+  {
+    "id": "cloud-core-ibm",
+    "name": "Cloud Core",
+    "issuer": "IBM",
+    "issueDate": "September 2020",
+    "credentialId": "N/A",
+    "url": "https://www.youracclaim.com/badges/7cbd87aa-5dc0-40d3-aeb5-7be8364474df?source=linked_in_profile",
+    "skills": ["Cloud Computing", "IBM Cloud"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1781740800&v=beta&t=ILA4ioa_GfEXWFLxT1w97YUuqDDWxcD6NqlSTVZlbBg"
+  },
+  {
+    "id": "ibm-kubernetes-service",
+    "name": "IBM Cloud Kubernetes Service",
+    "issuer": "IBM",
+    "issueDate": "September 2019",
+    "credentialId": "N/A",
+    "url": "https://www.youracclaim.com/badges/96f58309-8741-4d39-8dd0-e7d68ff5e1f9/linked_in_profile",
+    "skills": ["Kubernetes", "IBM Cloud", "Container Orchestration"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1781740800&v=beta&t=ILA4ioa_GfEXWFLxT1w97YUuqDDWxcD6NqlSTVZlbBg"
+  },
+  {
+    "id": "docker-essentials-ibm",
+    "name": "Docker Essentials: A Developer Introduction",
+    "issuer": "IBM",
+    "issueDate": "September 2019",
+    "credentialId": "N/A",
+    "url": "https://www.youracclaim.com/badges/c419317c-1c52-4a62-99b2-37715da372fc/linked_i",
+    "skills": ["Docker", "Containers", "DevOps"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1781740800&v=beta&t=ILA4ioa_GfEXWFLxT1w97YUuqDDWxcD6NqlSTVZlbBg"
+  },
+  {
+    "id": "ibm-agile-explorer",
+    "name": "IBM Agile Explorer",
+    "issuer": "IBM",
+    "issueDate": "July 2019",
+    "credentialId": "N/A",
+    "url": "https://www.youracclaim.com/badges/a410b4e4-1cb9-4094-88c1-e4a415281fa2/linked_in_profile",
+    "skills": ["Agile", "Scrum", "Project Management"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1781740800&v=beta&t=ILA4ioa_GfEXWFLxT1w97YUuqDDWxcD6NqlSTVZlbBg"
+  },
+  {
+    "id": "learning-mongodb-linkedin",
+    "name": "Learning MongoDB",
+    "issuer": "LinkedIn",
+    "issueDate": "November 2018",
+    "credentialId": "AT0XCS3ewnpGSNfrMdzWZpsz0hwe",
+    "url": "https://www.linkedin.com/learning/learning-mongodb/",
+    "skills": ["MongoDB", "NoSQL", "Database"],
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1781740800&v=beta&t=MkuyjG2GIZxMOHDt-UlAX3HKOlVDsj5HDkz3WX1YMcw"
+  },
+  {
+    "id": "microservices-foundations-linkedin",
+    "name": "Microservices Foundations",
+    "issuer": "LinkedIn",
+    "issueDate": "November 2018",
+    "credentialId": "ATGVYqNnFjVNPLveVB_oS5eb7426",
+    "url": "https://www.linkedin.com/learning/certificates/801b23807a1e41a3ca76c95abe3bbfbc330fc4754b358308a3eef4f753a2bce0/?trk=backfilled_certificate",
+    "skills": ["Microservices", "Architecture", "Software Design"],
+    "logo": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1781740800&v=beta&t=MkuyjG2GIZxMOHDt-UlAX3HKOlVDsj5HDkz3WX1YMcw"
+  },
+  {
+    "id": "appway-practitioner",
+    "name": "Appway practitioner",
+    "issuer": "FNZ (formerly Appway)",
+    "issueDate": "March 2016",
+    "credentialId": "P-PRAC-60-0050",
+    "url": "https://www.linkedin.com/in/herleraja/details/certifications/",
+    "skills": ["Appway", "Business Process Management", "Workflow"],
+    "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHp7UzZGv8Cyg/company-logo_100_100/company-logo_100_100/0/1696492457828/appway_logo?e=1781740800&v=beta&t=DO-3Q0McxNDYRWCIgfdbnjKpCe2m828I5kmRnrBnEFA"
+  },
+  {
+    "id": "ibm-rad-websphere",
+    "name": "IBM Certified Associate Developer (RAD for WebSphere Software V6.0)",
+    "issuer": "IBM",
+    "issueDate": "May 2012",
+    "credentialId": "N/A",
+    "url": "http://www.ibm.com/certify",
+    "skills": ["IBM RAD", "WebSphere", "Java", "Enterprise Development"],
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1781740800&v=beta&t=ILA4ioa_GfEXWFLxT1w97YUuqDDWxcD6NqlSTVZlbBg"
+  }
+]

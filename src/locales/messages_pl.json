@@ -57,5 +57,13 @@
   "contact.info.location": "Lokalizacja",
   "contact.info.company": "Firma",
   "contact.footer": "Zbudowane z React, TypeScript i Tailwind CSS.",
-  "common.and": "i"
+  "common.and": "i",
+  "nav.certificates": "Certyfikaty",
+  "certificates.title": "Certyfikaty i",
+  "certificates.titleHighlight": "osiągnięcia",
+  "certificates.subtitle": "Profesjonalne certyfikaty i osiągnięcia z LinkedIn i innych platform",
+  "certificates.issued": "Wydano",
+  "certificates.skills": "Umiejętności",
+  "certificates.viewCertificate": "Zobacz certyfikat",
+  "certificates.viewAllOnLinkedIn": "Zobacz wszystkie certyfikaty na LinkedIn"
 }

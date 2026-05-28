@@ -3,6 +3,7 @@
   "nav.about": "私について",
   "nav.skills": "スキル",
   "nav.projects": "プロジェクト",
+  "nav.certificates": "証明書",
   "nav.contact": "お問い合わせ",
   "hero.greeting": "こんにちは、私は",
   "hero.viewWork": "作品を見る",
@@ -57,5 +58,12 @@
   "contact.info.location": "場所",
   "contact.info.company": "会社",
   "contact.footer": "React、TypeScript、Tailwind CSSで構築されています。",
+  "certificates.title": "証明書と",
+  "certificates.titleHighlight": "実績",
+  "certificates.subtitle": "LinkedInおよび他のプラットフォームからの専門的な証明書と実績",
+  "certificates.issued": "発行日",
+  "certificates.skills": "スキル",
+  "certificates.viewCertificate": "証明書を表示",
+  "certificates.viewAllOnLinkedIn": "LinkedInですべての証明書を表示",
   "common.and": "と"
 }

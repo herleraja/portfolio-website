@@ -12,6 +12,7 @@ const navItems = [
   { messageKey: navigationMessages.about, href: '#about' },
   { messageKey: navigationMessages.skills, href: '#skills' },
   { messageKey: navigationMessages.projects, href: '#projects' },
+  { messageKey: navigationMessages.certificates, href: '#certificates' },
   { messageKey: navigationMessages.contact, href: '#contact' },
 ];
 

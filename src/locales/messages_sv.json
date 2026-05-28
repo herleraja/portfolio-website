@@ -57,5 +57,13 @@
   "contact.info.location": "Plats",
   "contact.info.company": "Företag",
   "contact.footer": "Byggd med React, TypeScript och Tailwind CSS.",
-  "common.and": "och"
+  "common.and": "och",
+  "nav.certificates": "Certifikat",
+  "certificates.title": "Certifikat och",
+  "certificates.titleHighlight": "prestationer",
+  "certificates.subtitle": "Professionella certifikat och prestationer från LinkedIn och andra plattformar",
+  "certificates.issued": "Utfärdad",
+  "certificates.skills": "Färdigheter",
+  "certificates.viewCertificate": "Visa certifikat",
+  "certificates.viewAllOnLinkedIn": "Visa alla certifikat på LinkedIn"
 }

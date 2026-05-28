@@ -6,6 +6,7 @@ import Hero from './components/sections/Hero';
 import About from './components/sections/About';
 import Skills from './components/sections/Skills';
 import Projects from './components/sections/Projects';
+import Certificates from './components/sections/Certificates';
 import Contact from './components/sections/Contact';
 import type { LocaleProps } from './types/i18n.types';
 
@@ -20,6 +21,7 @@ function App({ locale, onLocaleChange }: LocaleProps) {
         <About />
         <Skills />
         <Projects />
+        <Certificates />
         <Contact />
       </div>
     </HelmetProvider>
